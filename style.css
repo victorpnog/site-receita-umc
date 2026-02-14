@@ -1,0 +1,33 @@
+body {
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Arial, sans-serif;
+   background-color: #f2f2f2;
+}
+.container {
+   text-align: center;
+   background: white;
+   padding: 100px;
+   border-radius: 100px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+ol {
+   margin: 20px auto;     
+   padding-left: 0;
+   list-style-position: inside; 
+   width: fit-content;    
+   text-align: left;  
+   font-size: 30px;   
+}
+a {
+   text-decoration: none;
+   color: #ff7043;
+   font-weight: bold;
+   font-size: 30px;
+}
+a:hover {
+   color: #d84315;
+}
